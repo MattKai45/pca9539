@@ -49,6 +49,10 @@
 /* PCA9539 I/O direction */
 #define PCA9539_PIN_MODE_OUTPUT    0x00    /* Pin is configured as ouput                */
 #define PCA9539_PIN_MODE_INPUT     0x01    /* Pin is configured as high-impedance input */
+
+/* PCA9539 arbitrary port index */
+#define PCA9539_PORT0    0x00    /* Port 0 (P00 - P07) */
+#define PCA9539_PORT1    0x01    /* Port 1 (P10 - P17) */
 #endif /* PCA9539_H */
 
 /*** end of file ***/
