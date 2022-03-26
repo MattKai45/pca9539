@@ -36,6 +36,15 @@
 #define PCA9539_CONFIG_PORT_0_DEFAULT           0xFF    /* PCA9539 Configuration Port 0 register default      */
 #define PCA9539_CONFIG_PORT_1_DEFAULT           0xFF    /* PCA9539 Configuration Port 1 register default      */
 
+/* PCA9539 Port 0 and 1 input or output pin index definition */
+#define PCA9539_PIN0_INDEX    0x00    /* PCA9539 Port 0 and 1 Pin Register 0 (P00 or P10) */
+#define PCA9539_PIN1_INDEX    0x01    /* PCA9539 Port 0 and 1 Pin Register 1 (P01 or P11) */
+#define PCA9539_PIN2_INDEX    0x02    /* PCA9539 Port 0 and 1 Pin Register 2 (P02 or P12) */
+#define PCA9539_PIN3_INDEX    0x03    /* PCA9539 Port 0 and 1 Pin Register 3 (P03 or P13) */
+#define PCA9539_PIN4_INDEX    0x04    /* PCA9539 Port 0 and 1 Pin Register 4 (P04 or P14) */
+#define PCA9539_PIN5_INDEX    0x05    /* PCA9539 Port 0 and 1 Pin Register 5 (P05 or P15) */
+#define PCA9539_PIN6_INDEX    0x06    /* PCA9539 Port 0 and 1 Pin Register 6 (P06 or P16) */
+#define PCA9539_PIN7_INDEX    0x07    /* PCA9539 Port 0 and 1 Pin Register 7 (P07 or P17) */
 #endif /* PCA9539_H */
 
 /*** end of file ***/
