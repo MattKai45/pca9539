@@ -17,6 +17,17 @@
 #define PCA9539_7BIT_BASE_ADDRESS (uint8_t)0x74
 #define PCA9539_A0                (uint8_t)(1 << 0)
 #define PCA9539_A1                (uint8_t)(1 << 1)
+
+/* PCA9539 I2C control register definitions */
+#define PCA9539_REG_INPUT_PORT_0            0x00    /* PCA9539 Input Port 0 register              */
+#define PCA9539_REG_INPUT_PORT_1            0x01    /* PCA9539 Input Port 1 register              */
+#define PCA9539_REG_OUTPUT_PORT_0           0x02    /* PCA9539 Output Port 0 register             */
+#define PCA9539_REG_OUTPUT_PORT_1           0x03    /* PCA9539 Output Port 1 register             */
+#define PCA9539_REG_POLARITY_INV_PORT_0     0x04    /* PCA9539 Polarity Inversion Port 0 register */
+#define PCA9539_REG_POLARITY_INV_PORT_1     0x05    /* PCA9539 Polarity Inversion Port 1 register */
+#define PCA9539_REG_CONFIG_PORT_0           0x06    /* PCA9539 Configuration Port 0 register      */
+#define PCA9539_REG_CONFIG_PORT_1           0x07    /* PCA9539 Configuration Port 1 register      */
+
 #endif /* PCA9539_H */
 
 /*** end of file ***/
