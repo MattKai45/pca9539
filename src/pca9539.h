@@ -28,6 +28,14 @@
 #define PCA9539_REG_CONFIG_PORT_0           0x06    /* PCA9539 Configuration Port 0 register      */
 #define PCA9539_REG_CONFIG_PORT_1           0x07    /* PCA9539 Configuration Port 1 register      */
 
+/* PCA9539 I2C control register power-up default definitions */
+#define PCA9539_OUTPUT_PORT_0_DEFAULT           0xFF    /* PCA9539 Output Port 0 register default             */
+#define PCA9539_OUTPUT_PORT_1_DEFAULT           0xFF    /* PCA9539 Output Port 1 register default             */
+#define PCA9539_POLARITY_INV_PORT_0_DEFAULT     0x00    /* PCA9539 Polarity Inversion Port 0 register default */
+#define PCA9539_POLARITY_INV_PORT_1_DEFAULT     0x00    /* PCA9539 Polarity Inversion Port 1 register default */
+#define PCA9539_CONFIG_PORT_0_DEFAULT           0xFF    /* PCA9539 Configuration Port 0 register default      */
+#define PCA9539_CONFIG_PORT_1_DEFAULT           0xFF    /* PCA9539 Configuration Port 1 register default      */
+
 #endif /* PCA9539_H */
 
 /*** end of file ***/
